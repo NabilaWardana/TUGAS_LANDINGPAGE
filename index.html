@@ -10,8 +10,8 @@
 </head>
 <body>
     <!-- Tambahkan kode kalian di sini -->
-    <!-- poin1 -->
     <header>
+        <!-- poin1 -->
         <nav class="nav-flex-container">
             <div id="nav-logo" class="nav-main-logo">
                 <img src="https://seeklogo.com/images/S/sun-book-logo-E393C7C6AC-seeklogo.com.png" class="main-logo"/>
@@ -29,9 +29,12 @@
         <div class="title-flex-container">
             <div id="title-kiri" class="title-desc">
                 <h1 id="title">Lorem ipsum dolor sit amet.</h1>
+                <!-- poin2 -->
                 <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe repellat, fuga distinctio commodi corrupti facere. Illum modi earum molestias laborum.</h3>
                 <h5 id="project-part">Project part of :</h5>
+                <!-- poin4 -->
                 <a id="link" href="https://skilvul.com">
+                    <!-- poin3 -->
                     <img src="img/skilvul-logo.png" class="project-part-logo">
                 </a>
             </div>
@@ -40,23 +43,80 @@
             </div>
         </div>
     </header>
+    <div class="content">
+        <div class="signup-section">
+            <div id="signup-kiri" class="signup-desc">
+                <img src="img/signup.png" alt="" class="signup-img">
+                <h3 id="signup-stimulus">Lorem ipsum dolor sit amet.</h3>
+            </div>
+            <div id="signup-kanan" class="signup-form">
+                <div class="signup-card">
+                    <div class="signup-title">
+                        <h3 id="signup-capt1">Sign Up</h3>
+                        <h5 id="signup-capt2">Create a new account here</h3>
+                    </div>
+                    <!-- poin5 -->
 
+                    <form id="my-form">
+                        Name : <input id="name" type="text" class="input-form" placeholder="Input your name here"/>
+                        City : <input id="city" type="text" class="input-form" placeholder="Input your city here"/>
+                        E-mail : <input id="email" type="email" class="input-form" placeholder="Input your email here"/>
+                        Zip-code : <input id="zip-code" type="number" class="input-form" placeholder="Input your zip-code here"/>
+                        <input id="status" type="checkbox"/>
+                        <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+                        <button id="submit-form" type="submit" class="button-form" onclick="submitForm()">Submit</button>
+                        <div id="warning"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- poin2 -->
-    <p id="description">poin 2 : penjelasan singkat mengenai wes yang sedang dibuat</p> 
-    <!-- poin3 dan 4 -->
-    <a id="link" href="https://skilvul.com">
-        <img src="#">
-    </a>
-    <!-- poin5 -->
-
-    
 
     <div class="card-flex-container" id="container-card">
         <div class="card">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aspernatur.</p>
         </div>
     </div>
+
+    <footer>
+        <div class="footer-flex-container">
+            <div id="footer-kiri" class="footer-info">
+                <img src="#" alt="" class="footer-logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro tenetur velit, molestiae sit animi quibusdam cum nesciunt corrupti facere rem.</p>
+            </div>
+            <div id="footer-tengah" class="footer-menu">
+                <ul>
+                    <label>Discover</label>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Mentors</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <ul>
+                    <label>Resources</label>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Partner</a></li>
+                </ul>
+                <ul>
+                    <label>Company</label>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+            <div id="footer-kanan" class="footer-socmed">
+                <img src="img/facebook.png" alt="#" class="socmed-icon">
+                <img src="img/linkedin.png" alt="#" class="socmed-icon">
+                <img src="img/youtube.png" alt="#" class="socmed-icon">
+                <img src="img/instagram.png" alt="#" class="socmed-icon">
+            </div>
+        </div>
+    </footer>
+    
 
 <script src="script.js"></script>
 </body>

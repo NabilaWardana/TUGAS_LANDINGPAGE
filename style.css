@@ -114,3 +114,83 @@ html, header{
     margin-right: 50px;
 }
 /* end :: header-title style */
+
+/* begin :: content-signup-section style */
+.signup-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.signup-desc{
+    margin: auto;
+}
+
+.signup-img{
+    width: 400px;
+}
+#signup-stimulus{
+    text-align: center;
+}
+.signup-form{
+    margin: auto;
+}
+.signup-card{
+    background-color: rgb(20, 108, 148);
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    color: white;
+}
+form {
+    padding: 0 50px;
+}
+.input-form{
+    display: block;
+    margin-bottom: 20px;
+}
+.button-form{
+    display: block;
+    margin-top: 10px;
+}
+#check{
+    font-size: 13px;
+}
+#signup-capt1{
+    padding-top:  20px;
+    text-align: center;
+}
+#signup-capt2{
+    text-align: center;
+}
+#submit-form {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+/* end :: content-signup-section style */
+
+/* begin :: footer style */
+.footer-flex-container{
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-info{
+    width: 400px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.footer-menu ul{
+    list-style: none;
+    line-height: 30px;
+}
+.socmed-icon{
+    width: 30px;
+    margin: 0 5px;
+}
+/* end :: footer style */
