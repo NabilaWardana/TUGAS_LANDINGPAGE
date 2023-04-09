@@ -1,11 +1,12 @@
-html{
+html, header{
     height: 100%;
     width: 100%;
     font-family: 'Source Serif Pro', serif;
 }
 
+/* begin :: navbar style */
+
 .nav-flex-container{
-    background-color: white;
     padding: 4px;
     display: flex;
     justify-content: space-between;
@@ -86,3 +87,30 @@ html{
     padding: 8px;
     flex-basis: 30%;
 }
+
+/* end :: navbar style */
+
+/* begin :: header-title style */
+.title-flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+.title-desc{
+    margin-left: 50px;
+}
+#description{
+    width: 700px;
+}
+#project-part{
+    font-weight: normal;
+}
+.project-part-logo{
+    width: 90px;
+}
+.title-img{
+    width: 400px;
+    margin-right: 50px;
+}
+/* end :: header-title style */
