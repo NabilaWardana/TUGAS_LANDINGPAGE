@@ -1,11 +1,4 @@
-for(let i=0;i<=8;i++){
-    document.getElementById("container-card").innerHTML += `
-        <div class="card">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aspernatur.</p>
-        </div>
-    `
-}
-
+// Tambahkan kode JavaScript kalian di file ini
 
 function handleGetFormData(){
     const name = document.getElementById("name").value;
@@ -41,7 +34,7 @@ function submit(){
     if(validateFormData(handleGetFormData())){
         document.getElementById("warning").innerText="";
     }else{
-        document.getElementById("warning").innerText="Periksa form Anda sekali lagi";
+        document.getElementById("warning").innerText="Periksa form anda sekali lagi";
     }
 }
 
@@ -49,4 +42,3 @@ function submitForm(){
     event.preventDefault(); // menghentikan pengiriman formulir
     submit(); // memvalidasi formulir
 }
-

@@ -1,12 +1,18 @@
+/* Tambahkan kode CSS kalian di file ini */
 html, header{
     height: 100%;
     width: 100%;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Nunito', sans-serif;
 }
 
+.sub-judul h1{
+    text-align: center;
+    text-decoration: underline;
+}
 /* begin :: navbar style */
 
 .nav-flex-container{
+    margin: 10px;
     padding: 4px;
     display: flex;
     justify-content: space-between;
@@ -22,8 +28,7 @@ html, header{
 
 
 .main-logo{
-    width: 30px;
-    height: 30px;
+    width: 150px;
 }
 
 .nav-menu-tengah{
@@ -36,7 +41,7 @@ html, header{
     text-decoration: none;
     padding: 9px 15px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: bold;
     color: rgb(65, 68, 75);
 }
 
@@ -63,14 +68,14 @@ html, header{
 
 .signup-button{
     color: white;
-    background-color: rgb(253, 219, 58);
+    background-color: #8D7B68;
     padding: 10px 15px;
     border-radius: 5px;
     font-weight: 500;
 }
 .signup-button:hover{
     color: white;
-    background-color: rgba(253, 220, 58, 0.603);
+    background-color: #8d7b6877;
     text-decoration:underline;
     padding: 10px 15px;
     border-radius: 5px;
@@ -91,14 +96,21 @@ html, header{
 /* end :: navbar style */
 
 /* begin :: header-title style */
+.title-section{
+    padding: 50px;
+    background-image: url(https://i.pinimg.com/564x/6a/ee/bd/6aeebdf34e9eb84681775dc2b410fd9a.jpg);
+}
 .title-flex-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 500px;
 }
-.title-desc{
-    margin-left: 50px;
+#title{
+    width: 500px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 60px;
+    font-weight: normal;
 }
 #description{
     width: 700px;
@@ -110,13 +122,13 @@ html, header{
     width: 90px;
 }
 .title-img{
-    width: 400px;
-    margin-right: 50px;
+    width: 450px;
 }
 /* end :: header-title style */
 
 /* begin :: content-signup-section style */
 .signup-section{
+    margin: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -134,7 +146,7 @@ html, header{
     margin: auto;
 }
 .signup-card{
-    background-color: rgb(20, 108, 148);
+    background-color: #628E90;
     width: 400px;
     height: 500px;
     border-radius: 20px;
@@ -170,15 +182,129 @@ form {
   }
 /* end :: content-signup-section style */
 
+/* begin :: content-benefit-style */
+
+.benefit-section{
+    margin: 50px;
+}
+.benefit-flex-container{
+    display: flex;
+    justify-content: center;
+}
+.benefit-card{
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.benefit-icon{
+    height: 50px;
+}
+
+/* end :: content-benefit-style */
+
+/* begin :: content-class-style */
+.pembelajaran{
+    color: white;
+}
+.class-section{
+    padding: 50px;
+    background-color: #2D2727;
+}
+.class-flex-container{
+    display: flex;
+    justify-content: center;
+}
+/* .class-card{
+    background-color: aqua;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+} */
+
+.class-card{
+    background-color: white;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 610px;
+    border-radius: 20px;
+}
+.class-img{
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+}
+
+#offline-img{
+    background-image: url(https://i.pinimg.com/564x/d9/dc/34/d9dc345079bc9e97eb69688412c2bf3b.jpg);
+}
+
+#online-img{
+    background-image: url(https://img.freepik.com/free-photo/close-up-woman-online-class_23-2148888816.jpg?w=826&t=st=1681120732~exp=1681121332~hmac=37a86f3a6a94778ac7987c9373333c8439d7e17f988331a05e91245ef508f48e);
+}
+
+.class-info{
+    padding: 20px;
+    text-align: center;
+}
+.button-class-info{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 50px;
+    background-color: #8D7B68;
+}
+
+.button-class-info:hover{
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: white;
+    background-color: #8d7b6877;
+}
+
+#class-detail{
+    list-style: none;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+
+#class-detail li{
+    margin: 10px
+}
+
+#class-detail li span{
+    margin: 10px
+}
+.class-detail-icon{
+    width: 20px;
+}
+
+/* end :: content-class-style */
+
 /* begin :: footer style */
+.footer-section{
+    background-color: #8d7b6877;
+    padding: 50px;
+}
 .footer-flex-container{
     padding: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.footer-logo{
+    width: 100px;
+}
 .footer-info{
-    width: 400px;
+    width: 450px;
 }
 .footer-menu{
     display: flex;
@@ -188,6 +314,15 @@ form {
 .footer-menu ul{
     list-style: none;
     line-height: 30px;
+    
+}
+.footer-menu li a {
+    color: black;
+    text-decoration: none;
+    border-bottom: none;
+}
+.footer-menu label{
+    font-weight: bold;
 }
 .socmed-icon{
     width: 30px;
